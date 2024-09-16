@@ -1,6 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
 }
 main{
     display: flex;
@@ -14,4 +17,11 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+}
+li{
+    list-style-type:none;
+
+}
+li a{
+    text-decoration: none;
 }
