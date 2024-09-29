@@ -153,6 +153,74 @@ opacity:0;
     
 }
 
+#Contact{
+    margin-top: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+#Contact h3{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+form{
+    padding: 200px;
+    margin-top: -350px;
+
+}
+
+.Message input, .Email input, .name input{
+    margin-top: 40px;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 335px;
+    height: 29px;
+    background-color: transparent;
+}
+.Message label, .Email label, .name label{
+position: relative;
+top: -20px;
+left: 40px;
+color: black;
+}
+.Message input{
+    margin-left: -15px;
+
+}
+
+footer{
+    background-color: #071629;
+    height: 200px;
+}
+footer img{
+    position: relative;
+    top: 100px;
+    width: 161px;
+    height: 32px;
+    left: 100px;
+    
+}
+.social-media{
+    margin-left: 1200px;
+}
+.social-media img{
+    width: 40px;
+    height: 15px;
+    padding-right: 20px;
+}
+footer p{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+
+
+
+
 @media  (max-width: 500px){
 
 .background{
